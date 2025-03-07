@@ -51,12 +51,9 @@ st.title("🎧 NarrateLink")
 st.caption("Transform articles into engaging podcasts instantly")
 
 url_container = st.container()
-with url_container:
-    url = st.text_input(
-        "Enter Article URL",
-        placeholder="https://example.com/article",
-        help="Paste the URL of the article you want to convert",
-    )
+
+    url = "https://www.aqi.in/us/real-time-most-polluted-city-ranking"
+
 
     col1, col2, col3 = st.columns([1, 1, 1])
     with col2:
